@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mada Store | نيترو ديسكورد</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <div class="icons-left">
+                <a href="cart.html"><i class="fas fa-shopping-cart icon"></i></a>
+                <a href="#" class="avatar-container" onclick="toggleDropdown()">
+                    <img src="./images/avatar_male.webp" alt="Avatar" class="avatar_male">
+                    <div class="dropdown" id="dropdown-menu">
+                        <a href="./cart.html">طلبات بانتظار الدفع  </a>
+                        <a href="./account.html">حسابي</a>
+                        <a href="#">تسجيل الخروج</a>
+                    </div>
+                </a>
+            </div>
+            <a href="index.html"><img src="./images/logo.png" alt="شعار الموقع" class="logo"></a>
+            <div class="icons-right">
+                <span>قائمة</span>
+                <i class="fas fa-bars icon"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="product-details">
+            <div class="product-info">
+                <h1><strong> سيرفر بوست (شهر) </strong></h1>
+                <p class="highlight">
+                    🖥️ <strong>هل تحتاج لتحسين سيرفرك؟</strong> <br>
+                    🚀 <strong>هل ترغب في تعزيز التفاعل والأداء؟</strong> <br>
+                    🔍 <strong>هل ترغب في منح سيرفرك ميزات إضافية؟</strong> <br>
+                    <strong>« مدى ستور هو المكان المثالي لتحسين سيرفرك بأفضل تجربة 🤩♥️»</strong>
+                </p>
+                <p class="highlight">
+                    <strong>سيرفر البوست الخاص بـ Discord هو الحل المثالي لرفع مستوى سيرفرك وتحسين الأداء.</strong><br>
+                    🔥 <strong>نايت ستور توفر لك هذه الخدمة بأقل سعر وأعلى كفاءة!</strong><br>
+                    <strong>🔽🔽🔽</strong>
+                </p>
+                <h2><strong>💜 مدى ستور توفر لك سيرفر بوست لأفضل أداء 💭</strong></h2>
+                <ul>
+                    <li><strong>🏆 تعزيز مستوى سيرفرك وتحسين جودة الصوت والفيديو.</strong></li>
+                    <li><strong>🚀 زيادة التفاعل داخل السيرفر وجذب المزيد من الأعضاء.</strong></li>
+                    <li><strong>🖥️ رفع الأداء والسلاسة في تجربة المستخدم داخل السيرفر.</strong></li>
+                    <li><strong>🎮 تحسين تجربة الألعاب في سيرفرك بفضل البوست.</strong></li>
+                    <li><strong>🔒 تعزيز أمان السيرفر وحماية بيانات الأعضاء.</strong></li>
+                    <li><strong>💬 إضافة المزيد من القنوات والتفاعل بين الأعضاء.</strong></li>
+                </ul>
+                <h3><strong>⚠️ شروط استخدام سيرفر بوست:</strong></h3>
+                <ul>
+                    <li><strong>🚫 عدم طرد بوتات البوست: يجب أن تظل بوتات البوست في السيرفر لضمان عمل المزايا بشكل صحيح.</strong></li>
+                    <li><strong>🔒 الحفاظ على سيرفرك مستقرًا: تجنب استخدام البوستات بشكل غير طبيعي أو إساءة استخدامها.</strong></li>
+                    <li><strong>❌ عدم حذف أو تعطيل البوتات الخاصة بالبوست: للحفاظ على استمرارية العمل الصحيح للمزايا المتوفرة.</strong></li>
+                    <li><strong>⏳ تأكد من تجديد البوست في الوقت المحدد للاستمرار في الاستفادة من المزايا.</strong></li>
+                </ul>
+                <h3><strong>🔧 مميزات سيرفر بوست:</strong></h3>
+                <ul>
+                    <li><strong>🌟 تحسين تجربة الأعضاء داخل السيرفر.</strong></li>
+                    <li><strong>📈 زيادة التفاعل وجذب الأعضاء الجدد.</strong></li>
+                    <li><strong>🔧 زيادة الاستقرار والأداء العالي للسيرفر.</strong></li>
+                    <li><strong>🎮 تحسين جودة الصوت والفيديو أثناء اللعب.</strong></li>
+                </ul>
+                <p class="highlight"><strong>🚀 سيرفرك على ديسكورد بأعلى مستوى مع سيرفر بوست من نايت ستور 🤩🖥️</strong></p>
+                <span class="price"><strong>7 ر.س <del>29 ر.س</del></strong></span>
+                <button onclick="addToCart('سيرفر بوست ديسكورد')"><strong>🛒 أضف للسلة</strong></button>
+            </div>
+            
+            <img src="./images/boost.jpg" alt="نيترو ديسكورد" class="product-image">            
+        </div>
+        <div class="benefits">
+            <div class="benefit">
+                <i class="fas fa-shipping-fast"></i>
+                <p>يوصلك اسرع شي</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-dollar-sign"></i>
+                <p>الاكثر توفير دائما</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-shield-alt"></i>
+                <p>الضمان و التعويض</p>
+            </div>
+        </div>
+        <div class="recommended-products">
+            <h2>منتجات قد تعجبك</h2>
+            <div class="product-list">
+                <!-- إضافة منتجات مشابهة من الصفحة الرئيسية -->
+                <a href="product-nitro.html" class="product-link">
+                    <div class="product-card">
+                        <img src="./images/nitro.jpg" alt="نيترو ديسكورد">
+                        <h3>نيترو ديسكورد (شهر)</h3>
+                        <p>التجربة الأفضل للمستخدم</p>
+                        <span class="price">26 SAR <del>29 SAR</del></span>
+                        <button onclick="addToCart('نيترو ديسكورد')">🛒 أضف للسلة</button>
+                    </div>
+                </a>
+                <!-- أضف المزيد من المنتجات هنا -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr class="footer-line">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>خدمة العملاء</h3>
+                <div class="footer-icons">
+                    <a href="https://discord.gg/aYtxnG5N"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>روابط تهمك</h3>
+                <ul>
+                    <li><a href="#">شروط الاستخدام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <img src="./images/logo.png" alt="صورة المتجر">
+                <p>أفضل المنتجات والأسعار تجدها هنا في نايت ستور، لتجربة تسوق استثنائية</p>
+            </div>
+        </div>
+        <!-- إضافة الخط هنا -->
+       
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

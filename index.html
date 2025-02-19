@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mada Store | سكاي ستور</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <header>
+        <div class="header-center">
+            <div class="icons-left">
+                <a href="cart.html"><i class="fas fa-shopping-cart icon"></i></a>
+                <a href="#" class="avatar-container" onclick="toggleDropdown()">
+                    <img src="./images/avatar_male.webp" alt="Avatar" class="avatar_male">
+                    <div class="dropdown" id="dropdown-menu">
+                        <a href="./cart.html">طلبات بانتظار الدفع  </a>
+                        <a href="./account.html">حسابي</a>
+                        <a href="#">تسجيل الخروج</a>
+                    </div>
+                </a>
+            </div>
+            <a href="index.html"><img src="./images/logo.png" alt="شعار الموقع" class="logo"></a>
+            <div class="icons-right">
+                <span>قائمة</span>
+                <i class="fas fa-bars icon"></i>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="products">
+            <h2>المنتجات</h2>
+            <div class="product-container">
+                <a href="product-nitro.html" class="product-link">
+                    <div class="product-card">
+                        <img src="./images/nitro.jpg" alt="نيترو ديسكورد">
+                        <h3>نيترو ديسكورد (شهر)</h3>
+                        <p>التجربة الأفضل للمستخدم</p>
+                        <span class="price">26 SAR <del>29 SAR</del></span>
+                        <button onclick="addToCart('نيترو ديسكورد')">🛒 أضف للسلة</button>
+                    </div>
+                </a>
+                <a href="product-boost.html" class="product-link">
+                    <div class="product-card">
+                        <img src="./images/boost.jpg" alt="نيترو ديسكورد">
+                        <h3>سيرفر بوست (شهر) </h3>
+                        <p>التجربة الأفضل للمستخدم</p>
+                        <span class="price">14 SAR <del>18 SAR</del></span>
+                        <button onclick="addToCart(' سيرفر بوت (شهر)')">🛒 أضف للسلة</button>
+                    </div>
+                </a>
+                <!-- أضف المزيد من المنتجات هنا -->
+                <a href="product-crunchyroll.html" class="product-link">
+                    <div class="product-card">
+                        <img src="./images/crunchyroll.jpg" alt="كرنشي رول ">
+                        <h3> سيرفر بوست ديسكورد (شهر)</h3>
+                        <p>التجربة الأفضل للمستخدم</p>
+                        <span class="price">15 SAR <del>20 SAR</del></span>
+                        <button onclick="addToCart('اشتراك كرانشي رول (شهر)')">🛒 أضف للسلة</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr class="footer-line">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>خدمة العملاء</h3>
+                <div class="footer-icons">
+                    <a href="https://discord.gg/aYtxnG5N"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>روابط تهمك</h3>
+                <ul>
+                    <li><a href="#">شروط الاستخدام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <img src="./images/logo.png" alt="صورة المتجر">
+                <p>أفضل المنتجات والأسعار تجدها هنا في نايت ستور، لتجربة تسوق استثنائية</p>
+            </div>
+        </div>
+        <!-- إضافة الخط هنا -->
+       
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

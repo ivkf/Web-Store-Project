@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mada Store | نيترو ديسكورد</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <div class="icons-left">
+                <a href="cart.html"><i class="fas fa-shopping-cart icon"></i></a>
+                <a href="#" class="avatar-container" onclick="toggleDropdown()">
+                    <img src="./images/avatar_male.webp" alt="Avatar" class="avatar_male">
+                    <div class="dropdown" id="dropdown-menu">
+                        <a href="./cart.html">طلبات بانتظار الدفع  </a>
+                        <a href="./account.html">حسابي</a>
+                        <a href="#">تسجيل الخروج</a>
+                    </div>
+                </a>
+            </div>
+            <a href="index.html"><img src="./images/logo.png" alt="شعار الموقع" class="logo"></a>
+            <div class="icons-right">
+                <span>قائمة</span>
+                <i class="fas fa-bars icon"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="product-details">
+            <div class="product-info">
+                <h1><strong>اشتراك كرانشي رول (شهر)</strong></h1>
+                <p class="highlight">
+                    🖥️ <strong>تستخدم الـPC⁉️</strong> <br>
+                    🚀 <strong>حابب تطور عملك⁉️</strong> <br>
+                    🔍 <strong>تحتاج مشاهدة أنمي بدون إعلانات⁉️</strong> <br>
+                    <strong>« مدى ستور يوفر لك اشتراك كرانشي رول بأفضل سعر وأسرع تفعيل! 🤩🎉»</strong>
+                </p>
+                <p class="highlight">
+                    <strong>كرانشي رول هو أفضل منصة لمشاهدة الأنمي بجودة عالية وبدون إعلانات.</strong><br>
+                    🔥 <strong>استمتع بمكتبة ضخمة تحتوي على جميع حلقات الأنمي.</strong><br>
+                    <strong>🔽🔽🔽</strong>
+                </p>
+                <h2><strong>💜 مميزات اشتراك كرانشي رول 💭</strong></h2>
+                <ul>
+                    <li><strong>📺 مشاهدة غير محدودة لأحدث حلقات الأنمي.</strong></li>
+                    <li><strong>🚀 متابعة حلقات الأنمي فور صدورها.</strong></li>
+                    <li><strong>🌍 دعم الترجمة لعدة لغات.</strong></li>
+                    <li><strong>💥 جودة مشاهدة تصل إلى 1080p و 4K.</strong></li>
+                    <li><strong>🔒 بدون إعلانات مزعجة!</strong></li>
+                </ul>
+                <h3><strong>⚠️ شروط الاشتراك:</strong></h3>
+                <ul>
+                    <li><strong>🔹 الاشتراك مخصص لحساب جديد فقط.</strong></li>
+                    <li><strong>🔹 لا يمكن استرداد المبلغ بعد التفعيل.</strong></li>
+                    <li><strong>🔹 يفضل استخدام بريد إلكتروني جديد لتجنب المشاكل.</strong></li>
+                    <li><strong>🔹 الاشتراك يدوم لمدة شهر كامل.</strong></li>
+                </ul>
+                <h3><strong>🔧 كيفية التفعيل:</strong></h3>
+                <ol>
+                    <li><strong>📧 سيتم إرسال بيانات الاشتراك عبر البريد الإلكتروني أو الديسكورد.</strong></li>
+                    <li><strong>🔑 قم بتسجيل الدخول في كرانشي رول واستمتع بالمشاهدة!</strong></li>
+                </ol>
+                <p class="highlight"><strong>🚀 تابع أنمياتك المفضلة بأفضل تجربة مع كرانشي رول من مدى ستور 🤩📺</strong></p>
+                <span class="price"><strong>15 ر.س <del>20 ر.س</del></strong></span>
+                <button onclick="addToCart('اشتراك كرانشي رول (شهر)')"><strong>🛒 أضف للسلة</strong></button>
+            </div>
+        </div>        
+        
+            <img src="./images/crunchyroll.jpg" alt="نيترو ديسكورد" class="product-image">            
+        </div>
+        <div class="benefits">
+            <div class="benefit">
+                <i class="fas fa-shipping-fast"></i>
+                <p>يوصلك اسرع شي</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-dollar-sign"></i>
+                <p>الاكثر توفير دائما</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-shield-alt"></i>
+                <p>الضمان و التعويض</p>
+            </div>
+        </div>
+        <div class="recommended-products">
+            <h2>منتجات قد تعجبك</h2>
+            <div class="product-list">
+                <!-- منتج سيرفر بوست -->
+                <a href="product-boost.html" class="product-link">
+                    <div class="product-card">
+                        <img src="./images/boost.jpg" alt="سيرفر بوست">
+                        <h3>سيرفر بوست (شهر)</h3>
+                        <p>التجربة الأفضل للمستخدم</p>
+                        <span class="price">15 SAR <del>20 SAR</del></span>
+                        <button onclick="addToCart('سيرفر بوست')">🛒 أضف للسلة</button>
+                    </div>
+                </a>
+            
+                <!-- منتج كرانشي رول -->
+                <a href="product-crunchyroll.html" class="product-link">
+                    <div class="product-card">
+                        <img src="./images/crunchyroll.jpg" alt="اشتراك كرانشي رول">
+                        <h3>كرانشي رول (شهر)</h3>
+                        <p>أفضل تجربة لمشاهدة الأنمي</p>
+                        <span class="price">10 SAR <del>30 SAR</del></span>
+                        <button onclick="addToCart('اشتراك كرانشي رول')">🛒 أضف للسلة</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr class="footer-line">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>خدمة العملاء</h3>
+                <div class="footer-icons">
+                    <a href="https://discord.gg/aYtxnG5N"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>روابط تهمك</h3>
+                <ul>
+                    <li><a href="#">شروط الاستخدام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <img src="./images/logo.png" alt="صورة المتجر">
+                <p>أفضل المنتجات والأسعار تجدها هنا في نايت ستور، لتجربة تسوق استثنائية</p>
+            </div>
+        </div>
+        <!-- إضافة الخط هنا -->
+       
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

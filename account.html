@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mada Store | حسابي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <div class="icons-left">
+                <a href="cart.html"><i class="fas fa-shopping-cart icon"></i></a>
+                <a href="#" class="avatar-container" onclick="toggleDropdown()">
+                    <img src="./images/avatar_male.webp" alt="Avatar" class="avatar_male">
+                    <div class="dropdown" id="dropdown-menu">
+                        <a href="./cart.html">طلبات بانتظار الدفع  </a>
+                        <a href="./account.html">حسابي</a>
+                        <a href="#">تسجيل الخروج</a>
+                    </div>
+                </a>
+            </div>
+            <a href="index.html"><img src="./images/logo.png" alt="شعار الموقع" class="logo"></a>
+            <div class="icons-right">
+                <span>قائمة</span>
+                <i class="fas fa-bars icon"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="account-page">
+            <div class="account-header">
+                <img src="./images/avatar_male.webp" alt="صورة الحساب" class="account-image">
+                <h1>مرحبا، [اسم المستخدم]</h1>
+                <button id="account-btn">الحساب</button>
+                <div id="account-options" class="account-options hidden">
+                    <ul>
+                        <li><a href="pending-orders.html">طلبات بانتظار الدفع</a></li>
+                        <li><a href="profile.html">حسابي</a></li>
+                        <li><a href="logout.html">تسجيل خروج</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr class="footer-line">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>خدمة العملاء</h3>
+                <div class="footer-icons">
+                    <a href="https://discord.gg/aYtxnG5N"><i class="fab fa-discord"></i><span>الديسكورد</span></a>
+                    <a href="#"><i class="fab fa-instagram"></i><span>انستقرام</span></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>روابط تهمك</h3>
+                <ul>
+                    <li><a href="#">شروط الاستخدام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <img src="./images/logo.png" alt="صورة المتجر">
+                <p>أفضل المنتجات والأسعار تجدها هنا في نايت ستور، لتجربة تسوق استثنائية</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
